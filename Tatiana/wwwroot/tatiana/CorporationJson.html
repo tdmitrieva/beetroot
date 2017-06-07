@@ -1,0 +1,13 @@
+﻿<template>
+    <template is="dom-bind">
+        <h3>Create Main Corporation</h3>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Input name" value="{{model.Title$::input}}">
+            </div>
+            <button class="btn btn-default" value="{{model.SaveTrigger$::click}}" onmousedown="++this.value">Create corporation</button>
+        </form>
+
+        <starcounter-include partial="{{model.CorporationList}}"></starcounter-include>
+    </template>
+</template>

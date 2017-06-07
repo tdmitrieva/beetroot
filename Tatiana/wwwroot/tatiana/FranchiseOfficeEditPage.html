@@ -1,0 +1,59 @@
+﻿<link rel="import" href="/sys/polymer/polymer.html">
+
+<template>
+    <a href="/tatiana">&lt;&lt; Back to start</a>
+    <template is="dom-bind">
+        <h3>Settings: {{model.Name$}}</h3>
+        <div>
+            <h4>Edit Franchise Settings</h4>
+            <div>
+                <form>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Name</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="text" value="{{model.Name$::input}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Street</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="text" value="{{model.Street$::input}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Number</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="number" value="{{model.Number$::input}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">ZipCode</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="number" value="{{model.ZipCode$::input}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">City</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="text" value="{{model.City$::input}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Country</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="text" value="{{model.Country$::input}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Address</label>
+                        <div class="col-sm-11">
+                            <span class="form-control-static">{{model.FullAddress}}</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" value="{{model.SaveTrigger$::click}}" onmousedown="++this.value">Save</button>
+                </form>
+            </div>
+
+        </div>
+    </template>
+</template>

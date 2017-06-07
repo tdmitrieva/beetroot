@@ -1,0 +1,28 @@
+﻿<link rel="import" href="/sys/puppet-redirect/puppet-redirect.html" />
+
+<template>
+    <template is="dom-bind">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Number of homes sold</th>
+                    <th>Total comission</th>
+                    <th>Average comission</th>
+                    <th>Trend</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template is="dom-repeat" items="{{model.FranchiseOffices}}">
+                    <tr>
+                        <td><a href="{{item.Url}}">{{item.Name}}</a></td>
+                        <td>{{item.SoldHomes}}</td>
+                        <td>{{item.TotalComission}}</td>
+                        <td>{{item.AvgComission}}</td>
+                        <td>{{item.Trend}}</td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </template>
+</template>

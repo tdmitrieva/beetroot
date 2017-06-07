@@ -1,0 +1,5 @@
+E:\Tatiana\Tatiana\bin\Debug\Tatiana.exe
+E:\Tatiana\Tatiana\bin\Debug\Tatiana.pdb
+E:\Tatiana\Tatiana\obj\x64\Debug\Tatiana.csprojResolveAssemblyReference.cache
+E:\Tatiana\Tatiana\obj\x64\Debug\Tatiana.exe
+E:\Tatiana\Tatiana\obj\x64\Debug\Tatiana.pdb

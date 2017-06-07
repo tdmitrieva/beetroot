@@ -1,0 +1,14 @@
+{
+  "Html": "/tatiana/FranchiseOfficeListJson.html",
+  "FranchiseOffices": [
+    {
+      "Name": "",
+      "Url": "",
+      "Key": "",
+      "SoldHomes": 0,
+      "TotalComission": 0,
+      "AvgComission": 0,
+      "Trend": 0
+    }
+  ]
+}

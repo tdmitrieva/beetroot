@@ -1,0 +1,11 @@
+{
+  "Html": "/tatiana/CorporationListJson.html",
+  "Corporations": [
+    {
+      "Title": "",
+      "FranchiseOfficesView": { },
+      "NewOfficeName$": "",
+      "AddOfficeTrigger$": 0
+    }
+  ]
+}
